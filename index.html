@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>touriste website</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..
+         800;1,200..800&family=Oxygen:wght@300;400;700&family=PT+Sans:ital,wght@0,400;
+         0,700;1,400;1,700&family=Signika+Negative:wght@300..700&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==
+         " crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <!--start responsive webiste-->
+   <header>
+        <!--Start logo-->
+        <div class="logo">
+           <img src="logo.jpg" height="100px">
+        </div>
+           <!--End logo-->
+       
+           <!--start nevigation-->
+           <nav>
+               <div class="nav-links" id="navLinks">
+                   <i class="fas fa-times" onclick="hideMenu()"></i> 
+                   <ul class="navigation">
+                       <li><a href="Home.html">Home</a></li>
+                       <li><a href="Activities.html">Activities</a></li>
+                       <li><a href="Accommodation.html">Accommodation</a></li>
+                   </ul>
+               </div>
+               <i class="fas fa-bars" onclick="showMenu()"></i>
+           </nav>
+           <!--End nevigation-->
+
+      <!--start banner-->
+      <div class="banner">
+        <img src="banner .jpg"> 
+      </div>
+      <!--end of banner-->
+   </header>
+
+   <div class="heading">
+    <h1>Discover Your Dream Destinations</h1>
+   </div>
+
+        <div class="row-p40">
+
+            <div class="container">
+                <div class="col-4">
+                    <img src="p-1.jpg" class="img-responsive">
+                    <p>Hunza is a paradise of orchards and towering cliffs,
+                         offering panoramic views of the Karakoram Range.
+                    </p>
+                    <h3>Hunza</h3>
+                </div>
+
+                <div class="col-4">
+                    <img src="p-2.jpg" class="img-responsive">
+                    <p>Kutwal captivates with its lush green valleys and breathtaking vistas 
+                        of the surrounding Himalayan peaks.
+                    </p>
+                    <h3>Kutwal Valley</h3>
+                </div>
+
+                <div class="col-4">
+                    <img src="p-3.jpg" class="img-responsive">
+                    <p>Astore boasts picturesque meadows, glacial lakes, and a rugged terrain,
+                         ideal for adventurous explorations.
+                    </p>
+                    <h3>Astore</h3>
+                </div>
+                
+            </div>
+        </div>    
+
+       <div class="row-p40">
+
+            <div class="container">
+                <div class="col-4">
+                    <img src="p-4.jpg" class="img-responsive">
+                    <p>Nager enchants visitors with its tranquil lakes,
+                         terraced fields, and traditional villages.
+                    </p>
+                    <h3>Nager</h3>
+                </div>
+                
+                <div class="col-4">
+                    <img src="p-5.jpg" class="img-responsive">
+                    <p> Hussainabad's serene atmosphere is complemented by snow-capped
+                         peaks and vibrant alpine flora.
+                    </p>
+                    <h3>HussainAbad</h3>
+                </div>
+
+                <div class="col-4">
+                    <img src="p-6.jpg" class="img-responsive">
+                    <p>Karimabad in Hunza Valley offers captivating views of snow-capped peaks, 
+                        terraced fields, and the historic Baltit Fort amidst stunning mountain scenery.
+                    </p>
+                    <h3>Karimabad</h3>
+                </div>
+
+            </div>
+
+       </div> 
+
+       <!--start footer-->
+
+       <footer>
+        <div class="row">
+            <div class="container">
+                <div class="col-4">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li>Email: fareedabbasi072075@gmail.com</li>
+                        <li>Phone: +92xxxxxxxxxx</li>
+                        <li>Address: Gilgit-Balistan xxxxxxx</li>
+                    </ul>
+                </div>
+
+                <div class="col-4">
+                    <h3>Quicks links</h3>
+                    <ul>
+                        <li>Activities</li>
+                        <li>Distinations</li>
+                        <li>Attraction</li>
+                    </ul>
+                </div>
+
+                <div class="col-4">
+
+                    <h3>Social Media</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/yourwebsite"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://www.twitter.com/yourwebsite"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.instagram.com/yourwebsite"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+
+                </div>
+                
+            </div>
+
+        </div>
+
+       </footer>
+       <!--End footer-->
+
+       <!--Copywrite Section-->
+       <div class="footer-bottom">
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+       </div>
+
+       <script>
+        var navLinks = document.getElementById("navLinks")
+        function showMenu() {
+            navLinks.style.left = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.left = "-200px";
+        }
+    </script>
+    
+   
+</body>
+</html>

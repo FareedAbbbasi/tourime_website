@@ -1,0 +1,30 @@
+* body {
+    background: #ccd5ae;  
+}
+
+.logo {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+.nav-links {
+    background: black;
+    font-size: 40px;
+
+    text-align: center;
+   
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline;
+    padding: 20px 10px;
+    margin: 20px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}

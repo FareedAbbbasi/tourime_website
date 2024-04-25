@@ -1,0 +1,314 @@
+body {
+    background: #f8f9fa;
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 0;
+
+}
+.nav-links {
+    background: black;
+    font-size: 40px;
+    text-align: center; 
+    margin-bottom: 0px;
+}
+.ul {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline;
+    padding: 20px 10px;
+    margin: 20px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.banner img {
+   width: 100%;
+   /* height: auto; */
+    
+}
+
+.heading {
+    text-align: center;
+    color: green;
+    
+}
+
+nav .fas {
+    display: none;
+}
+
+
+
+.navigation {
+   margin: 0px;
+}
+
+.bannar {
+    width: 100%;
+    min-height: 70vh;
+    background: url('../images/banner.jpg') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.text-block {
+    width: 100%;
+    color:white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.text-block h1 {
+    font-size: 60px;
+}
+
+.text-block p {
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+/* .text-block h3 {
+    background-color: #0077b6;
+    
+} */
+
+.highlight {
+    background-color: #ced4da;
+    color: black;
+}
+
+.btn-primary {
+    background-color: green;
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 7px 5px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.heading-2 {
+    text-align: center;
+}
+
+
+/* Gide system */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+[class *="col-"] {
+    float:left;
+    padding: 15px;
+}
+
+.container {
+   padding: 0 15px;
+   margin: 0% auto;
+   display: flex;
+}
+
+@media only screen and (max-width: 455px) {
+    body {
+        background-color: #ccd5ae;
+    }
+
+    nav .fa-bars {
+        display: block;
+    }
+
+    nav .fa-times {
+        display: block;
+        cursor: pointer;
+    }
+
+    .nav-links ul li {
+        display: block;
+    
+    }
+    
+    .nav-links {
+        position: absolute;
+        background: #3c096c;
+        height: 100vh;
+        width: 200px;
+        text-align: left;
+        z-index: 2;
+        top: 0;
+        left: -200px;
+        transition: 0.1s;
+    }
+    
+    .nav-links .fa {
+        display: block;
+        color: white ;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .fa-bars {
+        position: absolute;
+        left: 10px;
+        top: 90px;
+        font-size: 22px;
+        cursor: pointer;
+    
+    }
+
+    h1 {
+        color: white;
+    }
+
+    /* h3 {
+        color: white;
+    } */
+
+
+
+    .banner img {
+        width: 100%; /* Make the image responsive (fill the container width) */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .banner-2 img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .heading-2 {
+        text-align: center;
+    }
+
+    
+    .row-p40 {
+        padding: 20px 0px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    ul li {
+        text-align: center;
+        padding: 10px 0px;
+        font-size: 15px;
+    }
+
+    .custom-button {
+        text-align: center;
+        padding: 10px 5px;
+        border: 2px solid black;
+        background-color: green;
+        color: white;
+        border-radius: 5px;
+        font-size: 17px;
+        
+    }
+    
+    .button {
+        text-align: center;
+    }
+}
+
+
+
+.img-responsive {
+    max-width: 100%;
+    height:auto;
+    margin: 20px 0px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.container h2 {
+    text-align: center;
+    color: #606c38;
+}
+
+.col-3 {
+    border: 2px solid gray;
+}
+
+.footer-background {
+    background-color: black;
+    color: white;
+}
+ 
+ul li {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 17px;
+} 
+
+.img-responsive:hover {
+    border: 2px solid #0077b6;
+}
+
+.container:hover .img-responsive {
+    opacity: 1; /* Show overlay on hover */
+    
+}
+
+.custom-button {
+    text-align: center;
+    padding: 10px 5px;
+    border: 2px solid black;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    font-size: 17px;
+    
+}
+
+.button {
+    text-align: center;
+} 
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-bottom {
+    background-color: gainsboro;
+    text-align: center;
+    padding-bottom: 20px;
+    padding: 20px 0px;
+}
